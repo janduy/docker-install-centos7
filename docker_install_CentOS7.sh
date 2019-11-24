@@ -24,6 +24,7 @@ echo "INSTALL DOCKER-COMPOSE"
 yum install -y epel-release
 yum install -y python-pip
 pip install docker-compose
+pip install --upgrade pip
 yum -y upgrade python*
 echo "DOCKER-COMPOSE VERSION"
 docker-compose version
